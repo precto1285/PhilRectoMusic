@@ -1,0 +1,82 @@
+body{
+    background-image:url(../images/body.jpg);
+    background-size:100%;
+    color:white;   
+    size:100%;
+    height:100%;
+    /* border:solid; */
+    padding:5px;
+    font-family: 'Sacramento', cursive;
+}
+header {
+    /* border:solid; */
+    padding: 25px;
+    width: 100%;
+    height: 100px;
+    margin-bottom:10px;
+    text-align:right;
+}
+main{
+    /* border:solid; */
+    padding: 15px;
+    float:right;
+    margin:5px;
+    width:1409px;
+    height:713px;
+}
+sidebar {
+    /* border:solid; */
+    padding: 15px;
+    float:left;
+    width:458px;
+    height:713px;
+    margin:5px;
+}
+footer {
+    text-align:center;
+    /* border:solid; */
+    padding-top: 33px;
+    width: 100%;
+    height: 100px;
+    clear:both;
+}
+#intro{
+    /* border:solid; */
+    width: 800px;
+    height:400px;
+    margin:5px;
+    padding:30px;
+}
+#what{
+    /* border:solid; */
+    float:left;
+}
+#where{
+    /* border:solid; */
+    float:left;
+}
+#stuff{
+    clear:both;
+    /* border:solid; */
+    margin-top:50px;
+}
+#firstbtn{
+    float:left;
+    /* border:solid; */
+    padding: 5px;
+    width:350px;
+    height:300px;
+}
+#secondbtn{
+    /* border:solid; */
+    float:right;
+    padding: 5px;
+    width:350px;
+    height:300px;
+}
+li{
+    margin:15px;
+}
+.btn{
+    font-size:23pt;
+}
