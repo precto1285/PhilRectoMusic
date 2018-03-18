@@ -4,12 +4,12 @@ body{
     color:white;   
     size:100%;
     height:100%;
-    /* border:solid; */
     padding:5px;
     font-family: 'Sacramento', cursive;
 }
 header {
-    /* border:solid; */
+    border:solid;
+    border-radius: 30px;
     padding: 25px;
     width: 100%;
     height: 100px;
@@ -17,30 +17,34 @@ header {
     text-align:right;
 }
 main{
-    /* border:solid; */
+    border:solid;
+    border-radius:30px;
     padding: 15px;
     float:right;
-    margin:5px;
-    width:1409px;
+    margin:10px;
+    width:1380px;
     height:713px;
 }
 sidebar {
-    /* border:solid; */
+    border:solid;
+    border-radius:30px;
     padding: 15px;
     float:left;
-    width:458px;
+    width:460px;
     height:713px;
-    margin:5px;
+    margin:10px;
 }
 footer {
     text-align:center;
-    /* border:solid; */
+    border:solid;
+    border-radius: 30px;
     padding-top: 33px;
     width: 100%;
     height: 100px;
     clear:both;
 }
 #intro{
+    float:right;
     /* border:solid; */
     width: 800px;
     height:400px;
@@ -49,19 +53,20 @@ footer {
 }
 #what{
     /* border:solid; */
-    float:left;
+    float:right;
 }
 #where{
     /* border:solid; */
-    float:left;
+    float:right;
 }
 #stuff{
     clear:both;
+    padding:60px;
     /* border:solid; */
-    margin-top:50px;
+    height:230px;
 }
 #firstbtn{
-    float:left;
+    float:right;
     /* border:solid; */
     padding: 5px;
     width:350px;
@@ -78,5 +83,5 @@ li{
     margin:15px;
 }
 .btn{
-    font-size:23pt;
+    font-size:22pt;
 }
